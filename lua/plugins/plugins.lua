@@ -4,8 +4,8 @@ return {
   {
     "lazyvim/lazyvim",
     opts = {
-      colorscheme = "base16-3024",
-    }
+      colorscheme = "retrobox",
+    },
   },
 
   {
@@ -19,7 +19,7 @@ return {
     opts = {
       direction = "float",
       open_mapping = [[<A-x>]],
-    }
+    },
   },
 
   { "ast-grep/ast-grep" },
