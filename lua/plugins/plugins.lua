@@ -17,7 +17,7 @@ return {
     tag = "*",
     config = true,
     opts = {
-      direction = "float",
+      direction = "tab",
       open_mapping = [[<A-x>]],
     },
   },
@@ -29,11 +29,4 @@ return {
   { "snyk/cli" },
 
   { "mrcjkb/rustaceanvim" },
-
-  {
-    "kdheepak/lazygit.nvim",
-    keys = {
-      { "<A-z>", "<cmd>LazyGit<cr>", desc = "LazyGit" },
-    },
-  },
 }
