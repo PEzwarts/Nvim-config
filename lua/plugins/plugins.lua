@@ -4,7 +4,7 @@ return {
   {
     "lazyvim/lazyvim",
     opts = {
-      colorscheme = "retrobox",
+      colorscheme = "base16-3024",
     },
   },
 
