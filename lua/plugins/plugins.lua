@@ -15,6 +15,8 @@ return {
     },
   },
 
+  { "OXY2DEV/markview.nvim" },
+
   { "ast-grep/ast-grep" },
   { "microsoft/vscode-cpptools" },
   { "vadimcn/codelldb" },
