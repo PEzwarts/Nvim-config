@@ -9,4 +9,9 @@ vim.keymap.set("n", "<C-Down>", "<C-k>", { remap = true })
 
 vim.keymap.set("i", "<A-c", "<ESC>", { remap = true })
 
-vim.keymap.set("n", "<A-z>", "<S-h>", { remap = true})
+vim.keymap.set("n", "<A-z>", "<S-h>", { remap = true })
+
+vim.keymap.set("n", "<C-a>", "gg<S-v>G", { remap = true })
+
+vim.keymap.set("n", "+", "<C-a>", { remap = true })
+vim.keymap.set("n", "-", "<C-x>", { remap = true })
