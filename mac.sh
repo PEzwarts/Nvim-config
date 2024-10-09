@@ -1,11 +1,11 @@
-brew install git fish neovim firefox tor-browser
+brew install git fish gnu-sed neovim firefox tor-browser
 
 sudo pacman -S --noconfirm git fish neovim
 
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
-sed -i 's/<A-x>/<≈>/g' ./lua/plugins/plugins.lua
+gsed -i 's/<A-x>/<≈>/g' ./lua/plugins/plugins.lua
 
-sed -i 's/<A-z>/<Ω>/g' ./lua/config/keymaps.lua
-sed -i 's/<A-c>/<ç>/g' ./lua/config/keymaps.lua
+gsed -i 's/<A-z>/<Ω>/g' ./lua/config/keymaps.lua
+gsed -i 's/<A-c>/<ç>/g' ./lua/config/keymaps.lua
