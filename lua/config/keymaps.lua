@@ -7,7 +7,8 @@ vim.keymap.set("n", "<C-Right>", "<C-l>", { remap = true })
 vim.keymap.set("n", "<C-Up>", "<C-i>", { remap = true })
 vim.keymap.set("n", "<C-Down>", "<C-k>", { remap = true })
 
-vim.keymap.set("i", "<A-c>", "<ESC>", { remap = true })
+vim.keymap.set("i", "<A-c>", "<ESC>:w<CR>", { remap = true })
+vim.keymap.set("n", "<A-c>", "<ESC>:w<CR>", { remap = true })
 
 vim.keymap.set("n", "<A-z>", "<S-h>", { remap = true })
 
