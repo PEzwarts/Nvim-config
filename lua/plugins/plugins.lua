@@ -14,4 +14,22 @@ return {
       open_mapping = [[<A-x>]],
     },
   },
+
+  {
+    "fedepujol/move.nvim",
+    opts = {
+      --- Config
+    },
+  },
+
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      filesystem = {
+        filtered_items = {
+          hide_dotfiles = false,
+        },
+      },
+    },
+  },
 }
